@@ -1,0 +1,25 @@
+generated: '2026-07-17'
+method: searched
+source: https://absencesoft.stoplight.io/docs/api-specs/46b38f624d360-welcome-to-the-absence-soft-api
+docs: https://absencesoft.com/apis/
+summary:
+  types: [oauth2]
+  oauth2_flows: [password, clientCredentials]
+  transport: https-only
+schemes:
+- name: OAuth2
+  type: oauth2
+  description: >-
+    The AbsenceSoft REST API uses OAuth2 for authorization, supporting both the
+    resource-owner password credentials flow and the client credentials flow.
+    All API communication is HTTPS-only across every endpoint.
+  flows:
+  - flow: password
+  - flow: clientCredentials
+  sources: [docs]
+notes: >-
+  AbsenceSoft is API-first: the REST APIs available to customers are the same
+  ones that power the AbsenceSoft (AbsenceTracker) application itself. Token and
+  authorization endpoints are documented in the provider's Stoplight developer
+  portal behind customer login; scope names were not published on the public
+  surface and are intentionally omitted here rather than fabricated.
