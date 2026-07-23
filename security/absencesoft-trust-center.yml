@@ -1,0 +1,35 @@
+generated: '2026-07-17'
+method: searched
+probe: true
+source: https://absencesoft.com/security-and-trust/
+url: https://public-profile.whistic.com/1371f936-9fb7-494c-a254-c5b15c790674
+trust_page: https://absencesoft.com/security-and-trust/
+platform: Whistic
+certifications:
+- SOC 2 Type 2
+assessments:
+- SIG Lite
+- HECVAT
+program:
+  audit_cadence: annual SOC 2 Type 2 audit
+  penetration_testing: annual
+  application_security_testing: monthly
+  monitoring: file integrity monitoring and intrusion detection
+  hosting: AWS data centers (United States)
+  incident_response: documented Incident Response Policy and Disaster Recovery Plan
+document_categories:
+- Policies
+- Legal and Insurance Info
+- Technical Diagrams
+- Testing
+evidence:
+- source: https://absencesoft.com/security-and-trust/
+  keywords:
+  - soc 2 type 2
+  - annual penetration testing
+  - intrusion detection
+- source: https://public-profile.whistic.com/1371f936-9fb7-494c-a254-c5b15c790674
+  keywords:
+  - soc 2
+  - sig lite
+  - hecvat

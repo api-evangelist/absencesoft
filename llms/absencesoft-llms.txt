@@ -1,0 +1,24 @@
+# AbsenceSoft
+
+> AbsenceSoft is a leave and accommodations management SaaS platform that automates the administration of employee absences and workplace accommodations, with a compliance engine covering 200+ federal, state, and territorial leave laws (FMLA, ADA, PWFA). It exposes an API-first REST API — the same APIs that power the AbsenceTracker application — with OAuth2 authorization, webhooks, and file-based batch integration.
+
+## APIs
+- [AbsenceSoft REST API developer portal](https://absencesoft.stoplight.io/docs/api-specs/46b38f624d360-welcome-to-the-absence-soft-api): OpenAPI 3.1, OAuth2 (password + client credentials), employee data, leave and accommodations cases, employer configuration, communications.
+- [API overview](https://absencesoft.com/apis/): system-agnostic open REST API for enterprise integrations.
+
+## Docs
+- [Integrations](https://absencesoft.com/integrations/): payroll, HRIS/HCM (Workday, UKG, ADP, Paylocity, Oracle, SAP, Dayforce), SSO (Okta, JumpCloud).
+- [Security & Trust](https://absencesoft.com/security-and-trust/): SOC 2 Type 2, annual pen testing, AWS hosting.
+- [Whistic trust profile](https://public-profile.whistic.com/1371f936-9fb7-494c-a254-c5b15c790674): SOC 2, SIG Lite, HECVAT.
+- [Support / Help Center](https://absencesoft.my.site.com/support/s/)
+- [Blog](https://absencesoft.com/resources-category/blog/)
+- [Privacy Policy](https://absencesoft.com/privacy-policy)
+
+## Artifacts
+- [Authentication profile](authentication/absencesoft-authentication.yml)
+- [API conventions](conventions/absencesoft-conventions.yml)
+- [Webhooks](asyncapi/absencesoft-webhooks.yml)
+- [Conformance](conformance/absencesoft-conformance.yml)
+- [Lifecycle](lifecycle/absencesoft-lifecycle.yml)
+- [Trust center](security/absencesoft-trust-center.yml)
+- [Domain security](security/absencesoft-domain-security.yml)

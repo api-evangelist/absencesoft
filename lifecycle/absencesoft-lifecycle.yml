@@ -1,0 +1,18 @@
+generated: '2026-07-17'
+method: searched
+source: https://absencesoft.stoplight.io/docs/api-specs/46b38f624d360-welcome-to-the-absence-soft-api
+versioning:
+  scheme: unknown
+  spec_format: OpenAPI 3.1
+  docs: https://absencesoft.stoplight.io/docs/api-specs/46b38f624d360-welcome-to-the-absence-soft-api
+deprecation:
+  policy_url: null
+  sunset_header: false
+sla:
+  url: null
+status_page: null
+notes: >-
+  AbsenceSoft publishes its REST API in OpenAPI 3.1 via a Stoplight developer
+  portal. No public status page, deprecation policy, or SLA page was found on
+  the public surface (status.absencetracker.com resolves to the app login, not a
+  status dashboard). No StatusPage or Deprecation pointer is asserted.

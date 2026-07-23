@@ -1,0 +1,27 @@
+generated: '2026-07-17'
+method: searched
+source: https://absencesoft.com/apis/
+docs: https://absencesoft.stoplight.io/docs/api-specs/46b38f624d360-welcome-to-the-absence-soft-api
+conventions:
+  api_style: REST
+  spec_format: OpenAPI 3.1
+  transport: HTTPS-only across all endpoints
+  authentication:
+    style: OAuth2 (password and client credentials flows)
+    ref: authentication/absencesoft-authentication.yml
+  webhooks:
+    supported: true
+    model: event-driven; fires on employee or case record changes
+    reliability: automatic retry and logging
+    ref: asyncapi/absencesoft-webhooks.yml
+  file_integration:
+    supported: true
+    model: scheduled (batch) inbound and outbound file data sync for high-volume scenarios
+  idempotency:
+    documented: false
+  pagination:
+    documented: false
+notes: >-
+  Captured from the provider's public API overview and Stoplight developer
+  portal. Idempotency and pagination conventions were not published on the
+  public surface, so no Idempotency pointer is asserted (no fabrication).

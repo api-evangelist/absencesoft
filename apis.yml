@@ -1,8 +1,18 @@
 aid: absencesoft
-name: Absencesoft
-description: 'Absencesoft is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+name: AbsenceSoft
+description: >-
+  AbsenceSoft is a leave and accommodations management SaaS platform that
+  automates and streamlines the administration of employee absences and
+  workplace accommodations. Its Compliance Engine calculates employee
+  eligibility across 200+ federal, state, and territorial leave laws including
+  FMLA, ADA, and PWFA, with intelligent workflow automation, ACE communication
+  packet generation, interactive accommodations tracking, dashboards, and an
+  employee self-service portal. AbsenceSoft is API-first: it exposes an open,
+  system-agnostic REST API (OpenAPI 3.1, OAuth2) plus webhooks and file-based
+  batch sync so HR, payroll, and HRIS teams can build integrations
+  independently. It serves 400+ large enterprises across healthcare, higher
+  education, K-12, banking and finance, TPAs, and PEOs, supporting more than 7
+  million lives.
 url: https://raw.githubusercontent.com/api-evangelist/absencesoft/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,13 +20,56 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://absencesoft.com/wp-content/uploads/2023/01/absencesoft-logo.png
 tags:
 - Company
-- Unknown
-apis: []
+- Leave Management
+- Absence Management
+- Accommodations
+- HR Tech
+- Compliance
+- FMLA
+- ADA
+- Human Resources
+apis:
+- name: AbsenceSoft REST API
+  description: >-
+    API-first REST API powering leave and accommodations case management,
+    employee data, employer configuration, and communications. OpenAPI 3.1,
+    OAuth2 (password and client credentials flows), HTTPS-only, with webhooks
+    and file-based batch integration.
+  humanURL: https://absencesoft.stoplight.io/docs/api-specs/46b38f624d360-welcome-to-the-absence-soft-api
+  baseURL: https://api.absencetracker.com
+  tags:
+  - Leave Management
+  - Accommodations
+  - REST
+  properties:
+  - type: Authentication
+    url: authentication/absencesoft-authentication.yml
+  - type: Conventions
+    url: conventions/absencesoft-conventions.yml
+  - type: Webhooks
+    url: asyncapi/absencesoft-webhooks.yml
+  - type: Lifecycle
+    url: lifecycle/absencesoft-lifecycle.yml
+  - type: Conformance
+    url: conformance/absencesoft-conformance.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -25,3 +78,42 @@ maintainers:
 common:
 - type: Website
   url: https://absencesoft.com
+- type: DeveloperPortal
+  url: https://absencesoft.stoplight.io/docs/api-specs/46b38f624d360-welcome-to-the-absence-soft-api
+- type: Documentation
+  url: https://absencesoft.com/apis/
+- type: APIReference
+  url: https://absencesoft.stoplight.io/docs/api-specs/46b38f624d360-welcome-to-the-absence-soft-api
+- type: Integrations
+  url: https://absencesoft.com/integrations/
+- type: Blog
+  url: https://absencesoft.com/resources-category/blog/
+- type: Support
+  url: https://absencesoft.my.site.com/support/s/
+- type: PrivacyPolicy
+  url: https://absencesoft.com/privacy-policy
+- type: SignUp
+  url: https://absencetracker.com/Login
+- type: Compliance
+  url: https://absencesoft.com/security-and-trust/
+- type: Authentication
+  url: authentication/absencesoft-authentication.yml
+- type: Conventions
+  url: conventions/absencesoft-conventions.yml
+- type: Webhooks
+  url: asyncapi/absencesoft-webhooks.yml
+- type: Conformance
+  url: conformance/absencesoft-conformance.yml
+- type: Lifecycle
+  url: lifecycle/absencesoft-lifecycle.yml
+- type: TrustCenter
+  url: security/absencesoft-trust-center.yml
+- type: DomainSecurity
+  url: security/absencesoft-domain-security.yml
+- type: LLMsTxt
+  url: llms/absencesoft-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

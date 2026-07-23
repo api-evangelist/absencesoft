@@ -1,0 +1,19 @@
+generated: '2026-07-17'
+method: searched
+type: Webhooks
+source: https://absencesoft.com/integrations/
+docs: https://absencesoft.stoplight.io/docs/api-specs/46b38f624d360-welcome-to-the-absence-soft-api
+webhooks:
+  supported: true
+  style: outbound HTTP callbacks (event-driven)
+  reliability: automatic retry and delivery logging
+  triggers:
+  - description: Employee record changes
+  - description: Case record changes (leave and accommodations cases)
+  configuration: Webhook endpoints are configured in the AbsenceSoft developer portal.
+notes: >-
+  AbsenceSoft documents a webhook-driven, real-time integration surface that
+  triggers instant updates when employee or case records change, with automatic
+  retry and logging. Individual event names and payload schemas are documented
+  in the provider's Stoplight portal behind customer login and are not
+  reproduced here (no fabrication). No standalone AsyncAPI document is published.

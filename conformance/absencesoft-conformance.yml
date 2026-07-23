@@ -1,0 +1,20 @@
+generated: '2026-07-17'
+method: searched
+source: https://absencesoft.com/apis/
+standards:
+- id: oauth2
+  conforms: true
+  evidence: API overview documents OAuth2 password and client credentials flows
+- id: openapi-3.1
+  conforms: true
+  evidence: developer portal publishes the API in OpenAPI 3.1 format (Stoplight)
+- id: soc2-type2
+  conforms: true
+  evidence: annual SOC 2 Type 2 audit, published on the security & trust page and Whistic profile
+- id: webhooks
+  conforms: true
+  evidence: event-driven webhooks with automatic retry and logging
+- id: oidc
+  conforms: false
+- id: rfc9457-problem-details
+  conforms: false
