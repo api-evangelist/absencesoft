@@ -47,7 +47,19 @@ specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-17'
 image: https://absencesoft.com/wp-content/uploads/2023/01/absencesoft-logo.png
+x-docs-platform: stoplight
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-09-17
 tags:
+- Company
+- Leave Management
+- Absence Management
+- Accommodation
+- Human Resources
+- Compliance
+- FMLA
+- ADAS
+tags_raw:
 - Company
 - Leave Management
 - Absence Management
@@ -67,6 +79,10 @@ apis:
   humanURL: https://absencesoft.stoplight.io/docs/api-specs/46b38f624d360-welcome-to-the-absence-soft-api
   baseURL: https://api.absencetracker.com
   tags:
+  - Leave Management
+  - Accommodation
+  - REST
+  tags_raw:
   - Leave Management
   - Accommodations
   - REST
